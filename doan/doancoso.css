@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Helvetica;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+}
+
+.container {
+    width: 1140px;
+    height: 80px;
+    margin: 0px auto;
+}
+
+.logo img {
+    width: 140px;
+    float: left;
+    height: auto;
+}
+
+.contact-info {
+    float: left;
+    width: 790px;
+    height: 80px;
+}
+
+.contact-info ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.contact-info ul li {
+    display: inline-block;
+    height: 120px;
+    margin-left: 55px;
+}
+
+.contact-icon {
+    float: left;
+    height: 80px;
+    width: 20px;
+    line-height: 0px;
+    margin-top: 16px;
+    color: #1b9ce3;
+}
+
+.contact-text {
+    float: left;
+    height: 100px;
+    color: rgb(63, 63, 184);
+    margin-top: 15px;
+}
+
+.contact-text label {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+}
+
+.menu {
+    height: 20px;
+    line-height: 0px;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.menu_img {
+    flex: .4;
+    display: flex;
+    border-left: 2px solid #fff;
+}
+
+.menu_img img {
+    position: absolute;
+    width: 25px;
+    top: 0px;
+    right: 0px;
+}
+
+.slide {
+    width: 100%;
+    position: relative;
+}
+
+.slide img {
+    height: 600px;
+    text-align: center;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(25, 137, 201, 0.558);
+    color: hsl(0, 0%, 100%);
+    width: 13%;
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+    line-height: 20px;
+    margin: 30px auto;
+}
+
+.main-content h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.content-card h2 {
+    text-align: center;
+}
+
+.row1 {
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    background-color: rgba(19, 88, 128, 0.558);
+    text-align: center;
+}
+
+.row2 {
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    background-color: rgba(130, 184, 215, 0.558);
+    text-align: center;
+}
+
+.content-card-left img {
+    display: inline-block;
+    max-width: 100%;
+    height: 210px;
+    padding: 0;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+}
+
+.content-card-right img {
+    display: inline-block;
+    max-width: 100%;
+    height: 210px;
+    padding: 0;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+}
+
+.card-title {
+    line-height: 25px;
+}
+
+.feature {
+    width: 100%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.feature-icon-card {
+    width: 420px;
+    height: 150px;
+    float: left;
+    display: block;
+}
+
+.feature-icon {
+    text-align: center;
+    color: rgba(130, 184, 215, 0.558);
+    font-size: 50px;
+}
+
+.feature-icon-card p {
+    font-size: large;
+}
+
+.feature-text {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.guidance {
+    width: 100%;
+    height: 300px;
+    background: url(guidance.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.guidance::after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    content: '';
+    z-index: -1;
+    opacity: 0.7;
+    background: linear-gradient(to right, #83a3c1 0%, #3f9fd4 100%);
+}
+
+.guidance h2 {
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+}
+
+.guidance blockquote {
+    text-align: center;
+    color: rgb(115, 73, 73);
+    font-size: 20px;
+}
+
+.guidance p {
+    text-align: center;
+    color: rgba(9, 55, 81, 0.558);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.mo-dau {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-distributed {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 0px 60px 10px;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: left;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #000000;
+    font: normal 36px 'Roboto', cursive;
+    margin: 0 0 10px;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #000000;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+    margin-top: 20px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    float: right;
+}
+
+.footer-distributed .footer-right p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #000000;
+}
+
+
+/* The contact form */
+
+.footer-distributed form {
+    display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgba(130, 184, 215, 0.558);
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+    width: 400px;
+    padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+    color: #000000;
+}
+
+.footer-distributed form input {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+    border-radius: 3px;
+    background-color: rgba(130, 184, 215, 0.558);
+    color: #000000;
+    border: 0;
+    padding: 5px 20px;
+    font-weight: bold;
+    float: right;
+}
